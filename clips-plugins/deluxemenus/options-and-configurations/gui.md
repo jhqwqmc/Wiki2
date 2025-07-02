@@ -60,7 +60,7 @@ Sets requirements a player should have to open the GUI menu. Check the [Requirem
 ## Placeholders Support Arguments
 
 > ```yaml
-> arguments_support_placeholders: true
+> parse_placeholders_after_arguments: true
 > ```
 
 In version 1.14.1 of DeluxeMenus, the order of placeholders and arguments being parsed was changed for security reasons. If you know there is no security risk for you, the old order can be reverted by adding this option.
@@ -70,6 +70,14 @@ In version 1.14.1 of DeluxeMenus, the order of placeholders and arguments being 
 
 Some placeholders do more than returning values. To prevent user input from being used directly into placeholders, this option is disabled by default. If you know the placeholders you use inside menus are not doing such things, feel free to enable this option!
 {% endhint %}
+
+## Arguments Support Placeholders
+
+> ```yaml
+> arguments_support_placeholders: true
+> ```
+
+This option allows placeholders to be used inside arguments. They will automatically be parsed before the arguments are used anywhere inside the menu.
 
 ## Open Commands
 

@@ -43,8 +43,8 @@ There is one available placeholder from DeluxeMenus:
 * `%deluxemenus_meta_<key>_<dataType>_[default_value]%` - Returns the meta value that is saved with the specified key and type. If no value is saved with the given key and type, the default value is returned. If no default value is specified, an empty value is returned.
 * `%deluxemenus_meta_has_value_<key>_[dataType]%` - Returns yes/no response. Checks if there is a value with the given key. It also checks the type if specified.
 * `%deluxemenus_opened_menu%` - Returns the ID of the menu that the player currently has open
-* `%deluxemenus_has_open_menu%` - Returns yes/no if a user has a menu opened
-* `%deluxemenus_previously_opened%` - Returns the previous ID of the menu that the player had opened
+* `%deluxemenus_is_in_menu%` - Returns yes/no if a user has a menu opened
+* `%deluxemenus_last_menu%` - Returns the ID of the previous menu the player had opened
 
 ## General plugin options
 
