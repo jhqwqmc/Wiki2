@@ -82,7 +82,7 @@ This option allows placeholders to be used inside arguments. They will automatic
 {% hint style="warning" %}
 **Security Warning!**
 
-Some placeholders do more than returning values. To prevent user input from being used directly into placeholders, this option is disabled by default. If you know the placeholders you use inside menus are not doing such things, feel free to enable this option!
+This allows menu users to parse any placeholders they want. Please only enable this for people you trust!
 {% endhint %}
 
 ## Open Commands
