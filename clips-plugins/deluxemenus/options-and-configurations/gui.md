@@ -79,6 +79,12 @@ Some placeholders do more than returning values. To prevent user input from bein
 
 This option allows placeholders to be used inside arguments. They will automatically be parsed before the arguments are used anywhere inside the menu.
 
+{% hint style="warning" %}
+**Security Warning!**
+
+Some placeholders do more than returning values. To prevent user input from being used directly into placeholders, this option is disabled by default. If you know the placeholders you use inside menus are not doing such things, feel free to enable this option!
+{% endhint %}
+
 ## Open Commands
 
 > ```yaml
