@@ -1,3 +1,6 @@
+---
+description: Few examples to help you make your own!
+---
 
 # Example GUI menus
 
@@ -5,7 +8,8 @@
 
 A simple example to show you how you can make a Kits menu that displays 3 different items for each kit, when the kit is available to claim, when it's on cooldown and when it's unavailable (Locked).
 
-	@@ -13,17 +13,7 @@ To make this work fine you have to download [Essentials](https://ci.ender.zone/j
+To make this work fine you have to download [Essentials](https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/) and download the Essentials expansion using:
+
 > /papi ecloud download Essentials\
 > /papi reload
 
@@ -13,14 +17,23 @@ A simple example to show you how you can make a Kits menu that displays 3 differ
 
 A simple example to show you how you can make a Ranks menu that displays 2 items for each rank, when the rank is not purchased and when the rank or a higher rank is purchased
 
-	@@ -32,7 +22,7 @@ To make this work fine you have to download [LuckPerms](https://www.spigotmc.org
+To make this work fine you have to download [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and also download the Player expansions using:
+
 > /papi ecloud download Player\
 > /papi reload
+
 ## [**Server Selector**](https://github.com/HelpChat/DeluxeMenus-Wiki/blob/master/gui\_menus/serverselector.yml)
 
 A simple example to show you how you can make a Server Selector menu that displays 2 different items for each server, when the server is online and when it's offline.
 
-	@@ -47,15 +37,15 @@ In this example, we have 2 different servers on one BungeeCord: **vanilla** and
+To make this work fine you have to download Pinger and (optional) Server expansions using:
+
+> /papi ecloud download Pinger\
+> /papi ecloud download Server\
+> /papi reload
+
+In this example, we have 2 different servers on one BungeeCord: **vanilla** and **games**. We are on the server **games** in this example.
+
 If we want the player to connect to the **vanilla** server, we need to setup the right functions in the `left_click_commands:` \_\*\*\_section\
 In our example, we will first close the menu with `[close]`, send a message to the player with `[message]` and finally connect him to the server with `[connect]`.
 
@@ -36,9 +49,14 @@ The second item is easier. Because we are already connected, so we just need to 
 
 A simple example to show you how you can make a Store/Shop menu that you can buy/sell items from using various economic systems.
 
-	@@ -67,11 +57,11 @@ To make this work fine you have to download the Player and CheckItem expansions
+To make this work fine you have to download the Player and CheckItem expansions and the expansion of the economic system that you'll use using:
+
+> /papi ecloud download Player\
+> /papi ecloud download CheckItem\
+> /papi ecloud download Vault\
 > /papi ecloud download TokenEnchant\
 > /papi reload
+
 * [x] \*\*\*\*[**Vault**](https://github.com/help-chat/DeluxeMenus/blob/master/gui\_menus/store.yml#L18-L59)\*\*\*\*
 * [x] \*\*\*\*[**Token Enchant**](https://github.com/help-chat/DeluxeMenus/blob/master/gui\_menus/store.yml#L61-L106)\*\*\*\*
 * [x] \*\*\*\*[**Player Points**](https://github.com/help-chat/DeluxeMenus/blob/master/gui\_menus/store.yml#L105-L147)\*\*\*\*
