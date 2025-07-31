@@ -13,16 +13,6 @@ To make this work fine you have to download [Essentials](https://ci.ender.zone/j
 > /papi ecloud download Essentials\
 > /papi reload
 
-## [**Mines**](https://github.com/HelpChat/DeluxeMenus-Wiki/blob/master/gui\_menus/mines.yml)
-
-A simple example to show you how you can make a Mines menu that displays 3 items for each mine, when the mine is unlocked, when it's the current mine and when it's locked.
-
-To make this work fine you have to download [EzRanksPro](https://www.spigotmc.org/resources/10731/) and download Player and EzRanksPro expansions using:
-
-> /papi ecloud download Player\
-> /papi ecloud download EzRanksPro\
-> /papi reload
-
 ## [**Ranks**](https://github.com/HelpChat/DeluxeMenus-Wiki/blob/master/gui\_menus/ranks.yml)
 
 A simple example to show you how you can make a Ranks menu that displays 2 items for each rank, when the rank is not purchased and when the rank or a higher rank is purchased
